@@ -1,0 +1,137 @@
+.firjar {
+  font-family: "Firjar", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*===========================>navbar<================*/
+.logo-img{
+  width: 70px;
+}
+.nav-icon{
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  margin: auto;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    float: start;
+    width:100%
+  }
+
+  .navbar > .container {
+    flex-wrap: wrap;
+  }
+
+  .navbar-brand {
+    margin-inline-end: auto;
+  }
+}
+/*=============================>carousel<===========================*/
+.carousel-inner .carousel-img{
+  max-height: 40vh;
+}
+/* .carousel-item{
+  background: linear-gradient(173.68deg, #ffedf5 0%, #ffd5e7 100%);
+  height: "296px";
+  width: 294.26px;
+} */
+.carousel-item {
+  background: linear-gradient(174.76deg, #d3deff 0%, #a8baff 100%);
+  height: "296px";
+  width: 294.26px;
+}
+/* .carousel-item {
+  background: linear-gradient(176.69deg, #f8f0d5 0%, #efdcab 100%);
+  height: "296px";
+  width: 294.26px;
+}
+.carousel-item {
+  background: linear-gradient(175.24deg, #b2e8f0 0%, #7bccdc 100%);
+  height: "296px";
+  width: 294.26px;
+} */
+
+/*===========================>category card<============================*/
+.category-card{
+  background-color:transparent !important;
+}
+.category-img-container{
+  border-radius: 50%;
+
+  border-top-left-radius:50% !important;
+  border-top-right-radius:50% !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+      width: 75%;
+    margin: auto;
+
+}
+.category-img{
+width: 100% !important; 
+  object-fit: cover;
+  margin: auto;
+}
+.border-none{
+  border: none !important;
+}
+.shopping-now {
+  border:2px solid #424141;
+  border-radius: 20px;
+  padding: 2px 20px;
+}
+/*===========================>product card<============================*/
+.product-img{
+  border-radius: 4px;
+  width: 80% !important;
+  height: 70% ;
+  margin: auto;
+}
+.product-card{
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+/*===========================>discount section<============================*/
+.dicount-img{
+  width:90%;
+}
+.discount-backcolor{
+  padding: 20px;
+  border-radius:10px ;
+  background-color: #4241419e;
+}
+/*===========================>Brand section<============================*/
+.brand-card{
+  
+}
+
+/*================================login and register===============================*/
+.user-input {
+  box-sizing: border-box;
+  font-family: Almarai !important;
+  border: 1px solid #979797;
+  border-radius: 8px;
+}
+.title-login {
+  color: #555550;
+  font-family: Almarai !important;
+  font-size: 21px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: right;
+}
+.btn-login {
+  font-family: Almarai !important;
+  border-radius: 9px;
+  border: none;
+  color: white;
+  background-color: #272727;
+}
+.btn-login:hover {
+  color: rgb(206, 204, 204);
+}
